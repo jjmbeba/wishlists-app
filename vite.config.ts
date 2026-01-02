@@ -4,7 +4,6 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-<<<<<<< Updated upstream
 	plugins: [
 		tanstackRouter({
 			target: "react",
@@ -12,13 +11,4 @@ export default defineConfig({
 		}),
 		react(),
 	],
-=======
-  plugins: [
-    tanstackRouter({
-      target: "react",
-      autoCodeSplitting: true,
-    }),
-    react(),
-  ],
->>>>>>> Stashed changes
 });
